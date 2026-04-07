@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCollections - Política de Privacidade</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            text-align: center;
+            padding: 48px 20px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            opacity: 0.85;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+
+        p {
+            color: #424245;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            color: #424245;
+            margin: 8px 0 16px 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: #0f3460;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: #86868b;
+            font-size: 0.85em;
+        }
+
+        footer a {
+            color: #86868b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 32px 20px;
+            }
+            section {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Política de Privacidade</h1>
+    <p>MyCollections</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <p><strong>Última atualização:</strong> abril de 2025</p>
+        <p>Esta Política de Privacidade descreve como o aplicativo MyCollections coleta, usa e protege as informações dos usuários. Ao utilizar o app, você concorda com as práticas descritas neste documento.</p>
+    </section>
+
+    <section>
+        <h2>1. Dados armazenados localmente</h2>
+        <p>O MyCollections armazena os seguintes dados diretamente no seu dispositivo:</p>
+        <ul>
+            <li>Nomes e descrições de coleções e itens</li>
+            <li>Valores, raridade, condição e data de aquisição dos itens</li>
+            <li>Fotos e documentos anexados aos itens</li>
+            <li>Tags criadas pelo usuário</li>
+            <li>Preferências do app (como configurações de sincronização)</li>
+        </ul>
+        <p>Esses dados ficam armazenados exclusivamente no seu dispositivo e não são enviados a servidores externos, exceto quando a sincronização na nuvem está ativada.</p>
+    </section>
+
+    <section>
+        <h2>2. Sincronização na nuvem</h2>
+        <p>Quando ativada pelo usuário, a sincronização na nuvem utiliza o Firebase Firestore para armazenar uma cópia dos dados das suas coleções e itens (nomes, descrições, valores e metadados).</p>
+        <p><strong>Fotos e documentos não são sincronizados</strong> — eles permanecem apenas no seu dispositivo.</p>
+        <p>Um identificador anônimo (UUID) é gerado automaticamente no dispositivo para organizar seus dados na nuvem. Nenhum dado pessoal como nome, e-mail ou telefone é coletado.</p>
+    </section>
+
+    <section>
+        <h2>3. Análise de uso (Analytics)</h2>
+        <p>O app utiliza o Firebase Analytics para coletar dados anônimos de uso, como:</p>
+        <ul>
+            <li>Eventos de navegação entre telas</li>
+            <li>Ações realizadas (criar, editar, excluir coleções e itens)</li>
+            <li>Termos de busca utilizados</li>
+            <li>Estatísticas gerais (quantidade de coleções e itens, valor total)</li>
+            <li>Idioma e região do dispositivo</li>
+            <li>Versão do app</li>
+        </ul>
+        <p>Esses dados são utilizados exclusivamente para melhorar a experiência do usuário e o funcionamento do app. Não são compartilhados com terceiros para fins de publicidade.</p>
+    </section>
+
+    <section>
+        <h2>4. Relatórios de erros</h2>
+        <p>O app utiliza o Firebase Crashlytics para coletar relatórios automáticos de erros e falhas. Esses relatórios podem incluir informações técnicas sobre o estado do app no momento do erro, mas não contêm dados pessoais identificáveis.</p>
+    </section>
+
+    <section>
+        <h2>5. Acesso à galeria de fotos</h2>
+        <p>O app solicita permissão para acessar sua galeria de fotos exclusivamente para que você possa selecionar imagens para suas coleções e itens. As fotos selecionadas são armazenadas localmente no app e não são enviadas a servidores externos.</p>
+    </section>
+
+    <section>
+        <h2>6. Compartilhamento de dados</h2>
+        <p>O MyCollections <strong>não vende, aluga ou compartilha</strong> seus dados pessoais com terceiros. Os dados de analytics são processados pelo Firebase (Google) de forma anônima e agregada.</p>
+    </section>
+
+    <section>
+        <h2>7. Segurança</h2>
+        <p>Utilizamos medidas técnicas para proteger seus dados, incluindo armazenamento local seguro e conexões criptografadas com os serviços do Firebase.</p>
+    </section>
+
+    <section>
+        <h2>8. Seus direitos</h2>
+        <p>Você pode a qualquer momento:</p>
+        <ul>
+            <li>Excluir suas coleções, itens, fotos e documentos diretamente no app</li>
+            <li>Desativar a sincronização na nuvem nas configurações do app</li>
+            <li>Solicitar a exclusão dos seus dados entrando em contato conosco</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>9. Contato</h2>
+        <p>Se você tiver dúvidas sobre esta Política de Privacidade ou quiser exercer seus direitos, entre em contato:</p>
+        <p><strong>E-mail:</strong> <a href="mailto:rapha07.el@gmail.com">rapha07.el@gmail.com</a></p>
+    </section>
+
+    <section>
+        <h2>10. Alterações</h2>
+        <p>Esta Política de Privacidade pode ser atualizada periodicamente. Recomendamos que você revise esta página regularmente. Alterações significativas serão comunicadas por meio de atualizações no app.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p><a href="index.html">Voltar para o início</a></p>
+    <p style="margin-top: 8px;">&copy; 2025 MyCollections. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

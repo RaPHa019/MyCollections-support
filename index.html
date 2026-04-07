@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCollections - Suporte</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header .icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 48px;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.85;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        section h2 {
+            font-size: 1.4em;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        section p, section li {
+            color: #424245;
+            font-size: 1em;
+            line-height: 1.7;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 16px;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 20px 16px;
+            background: #f5f5f7;
+            border-radius: 12px;
+        }
+
+        .feature-card .emoji {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .feature-card h3 {
+            font-size: 1em;
+            margin-bottom: 6px;
+            color: #1d1d1f;
+        }
+
+        .feature-card p {
+            font-size: 0.85em;
+            color: #6e6e73;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e8e8ed;
+            padding: 16px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .faq-item:first-of-type {
+            padding-top: 0;
+        }
+
+        .faq-item h3 {
+            font-size: 1em;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #1d1d1f;
+        }
+
+        .faq-item p {
+            font-size: 0.95em;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #0f3460;
+            color: white;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 12px;
+            font-size: 1em;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .contact-btn:hover {
+            background: #1a1a2e;
+        }
+
+        .contact-section {
+            text-align: center;
+        }
+
+        .contact-section p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: #86868b;
+            font-size: 0.85em;
+        }
+
+        footer a {
+            color: #86868b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 40px 20px;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+            section {
+                padding: 24px;
+            }
+            .features {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="icon">📦</div>
+    <h1>MyCollections</h1>
+    <p>Organize, documente e acompanhe todas as suas coleções em um só lugar.</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Sobre o App</h2>
+        <p>O MyCollections é o app ideal para colecionadores que querem manter suas coleções organizadas e sempre à mão. Seja cards, figuras, vinis, livros, moedas ou qualquer outro item — cadastre tudo com fotos, documentos e informações detalhadas.</p>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="emoji">🗂️</div>
+                <h3>Coleções</h3>
+                <p>Crie e organize quantas coleções quiser</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">📸</div>
+                <h3>Fotos e Docs</h3>
+                <p>Adicione fotos e documentos aos seus itens</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">📊</div>
+                <h3>Estatísticas</h3>
+                <p>Acompanhe valor, raridade e crescimento</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🏷️</div>
+                <h3>Tags</h3>
+                <p>Organize com tags coloridas personalizadas</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🔍</div>
+                <h3>Busca</h3>
+                <p>Encontre qualquer item rapidamente</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">☁️</div>
+                <h3>Sincronização</h3>
+                <p>Seus dados seguros na nuvem</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Perguntas Frequentes</h2>
+
+        <div class="faq-item">
+            <h3>Quais tipos de coleção posso criar?</h3>
+            <p>Qualquer tipo! Cards, figuras, vinis, livros, moedas, selos, brinquedos, arte — o app se adapta a qualquer coleção que você tenha.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Minhas fotos e dados ficam seguros?</h3>
+            <p>Sim. Fotos e documentos ficam armazenados localmente no seu dispositivo. Você pode ativar a sincronização na nuvem para manter um backup seguro dos dados das suas coleções.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Quantos itens posso cadastrar?</h3>
+            <p>Não há limite. Cadastre quantos itens e coleções quiser.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>O app funciona offline?</h3>
+            <p>Sim. Todos os seus dados ficam salvos localmente. A sincronização na nuvem é opcional e pode ser configurada para funcionar apenas no Wi-Fi.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Como adiciono fotos a um item?</h3>
+            <p>Ao criar ou editar um item, toque no botão de adicionar foto. Você pode adicionar até 4 fotos por item, além de uma imagem de capa.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Posso anexar documentos como notas fiscais?</h3>
+            <p>Sim! Você pode anexar documentos em PDF, JPEG ou PNG a qualquer item — perfeito para certificados de autenticidade e notas fiscais.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h2>Precisa de ajuda?</h2>
+        <p>Se você encontrou um problema ou tem alguma sugestão, entre em contato. Responderemos o mais rápido possível.</p>
+        <a href="mailto:rapha07.el@gmail.com?subject=MyCollections%20-%20Suporte" class="contact-btn">Enviar e-mail</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 MyCollections. Todos os direitos reservados.</p>
+    <p style="margin-top: 8px;"><a href="privacy.html">Política de Privacidade</a></p>
+</footer>
+
+</body>
+</html>
